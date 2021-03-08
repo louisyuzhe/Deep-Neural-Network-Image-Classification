@@ -59,7 +59,7 @@ print ("y = " + str(train_y[0,index]) + ". It's a " + classes[train_y[0,index]].
 
 
 
-![png](output_6_1.png)
+![png](README/output_6_1.png)
 
 
 
@@ -310,7 +310,7 @@ parameters = two_layer_model(train_x, train_y, layers_dims = (n_x, n_h, n_y), nu
 
 
 
-![png](output_17_1.png)
+![png](README/output_17_1.png)
 
 
 
@@ -452,7 +452,7 @@ parameters = L_layer_model(train_x, train_y, layers_dims, num_iterations = 2500,
 
 
 
-![png](output_25_1.png)
+![png](README/output_25_1.png)
 
 
 
@@ -483,7 +483,7 @@ print_mislabeled_images(classes, test_x, test_y, pred_test)
 ```
 
 
-![png](output_30_0.png)
+![png](README/output_30_0.png)
 
 
 **A few types of images the model tends to do poorly on include:**
@@ -516,7 +516,7 @@ print ("y = " + str(np.squeeze(my_predicted_image)) + ", your L-layer model pred
 
 
 
-![png](output_33_1.png)
+![png](README/output_33_1.png)
 
 
 **References**:
